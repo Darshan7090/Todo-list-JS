@@ -1,0 +1,81 @@
+body {
+background-color: gainsboro; 
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+h1 {
+color: white;
+}
+
+.container {
+background-color: black; 
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+width: 400px;
+height: auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.container:hover {
+box-shadow: 0 0 10px rgba(0, 0, 0, 1.5);
+}
+
+#taskInput {
+width: calc(100% - 22px);
+margin-bottom: 10px;
+border: 3px double black;
+}
+#addTaskBtn {
+background-color: black;
+color: white;
+border: 2px solid white;
+}
+#addTaskBtn:hover {
+background-color: white;
+color: black;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+border: 3px double black;
+}
+.editBtn {
+background-color: black;
+color: white;
+border: 2px solid white;
+}
+.editBtn:hover {
+background-color: white;
+color: black;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+border: 3px double black;
+}
+.deleteBtn {
+background-color: black;
+color: white;
+border: 2px solid white;
+}
+.deleteBtn:hover {
+background-color: white;
+color: black;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+border: 3px double black;
+}
+
+#taskList {
+color: red;
+padding: 0px;
+list-style-type: circle;
+font-weight: bolder;
+}
+.editBtn {
+color: white;
+background-color: black;
+margin-left: 5px;
+}
+.deleteBtn {
+color: white;
+background-color: black;
+margin-left: 5px;
+}
